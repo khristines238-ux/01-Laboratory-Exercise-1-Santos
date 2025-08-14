@@ -21,5 +21,10 @@ namespace _01_Laboratory_Exercise_1_Santos
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
