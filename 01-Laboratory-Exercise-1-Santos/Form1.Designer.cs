@@ -46,6 +46,7 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -210,12 +211,21 @@
             this.label11.TabIndex = 17;
             this.label11.Text = "Address:";
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(34, 344);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(439, 77);
+            this.textBox7.TabIndex = 18;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(497, 475);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox6);
@@ -261,6 +271,7 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
 
