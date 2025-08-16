@@ -13,7 +13,7 @@ namespace _01_Laboratory_Exercise_1_Santos
 
         private void FrmRegistration_Load(object sender, EventArgs e)
         {
-           
+         
             comboBoxProgram.Items.Clear();
             comboBoxProgram.Items.AddRange(new string[]
             {
